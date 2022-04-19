@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "35242611132",
+    "project_id": "moteros-jp",
+    "storage_bucket": "moteros-jp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35242611132:android:8446d41b9e079553995bb9",
+        "android_client_info": {
+          "package_name": "com.flutterflow.moteros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35242611132-u0pa9rvn67ev04mep8h84nivek0n6fut.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutterflow.moteros",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "35242611132-gi1asit5jm5kqpbg5b8nn09c1bla7p3k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn5cESgERmpUwvK5BOQ1UkYKtzDd_KzSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35242611132-gi1asit5jm5kqpbg5b8nn09c1bla7p3k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "35242611132-6l4cf954lmms7usip89fbapkp77pp42d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.moteros"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
