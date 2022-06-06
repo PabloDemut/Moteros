@@ -54,7 +54,7 @@ class _PrincipalWidgetState extends State<PrincipalWidget>
   void initState() {
     super.initState();
     // On page load action.
-    SchedulerBinding.instance.addPostFrameCallback((_) async {
+    SchedulerBinding.instance?.addPostFrameCallback((_) async {
       await Navigator.push(
         context,
         MaterialPageRoute(
@@ -162,10 +162,21 @@ class _PrincipalWidgetState extends State<PrincipalWidget>
                     color: Color(0xFF303030),
                     borderRadius: BorderRadius.circular(20),
                   ),
-                  child: Icon(
-                    Icons.navigate_next,
-                    color: Colors.black,
-                    size: 50,
+                  child: InkWell(
+                    onTap: () async {
+                      await Navigator.pushAndRemoveUntil(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => HomePageWidget(),
+                        ),
+                        (r) => false,
+                      );
+                    },
+                    child: Icon(
+                      Icons.navigate_next,
+                      color: Colors.black,
+                      size: 50,
+                    ),
                   ),
                 ),
               ),
